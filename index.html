@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Luxury Car Gallery</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:#111;
+        color:white;
+        padding:30px;
+    }
+
+    h1{
+        text-align:center;
+        margin-bottom:30px;
+        font-size:40px;
+    }
+
+    .gallery{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+        gap:25px;
+    }
+
+    .card{
+        background:#1b1b1b;
+        border-radius:15px;
+        overflow:hidden;
+        transition:0.4s;
+        box-shadow:0 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .card:hover{
+        transform:translateY(-10px);
+    }
+
+    .card img{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+        display:block;
+    }
+
+    .info{
+        padding:15px;
+        text-align:center;
+    }
+
+    .info h2{
+        font-size:22px;
+        margin-bottom:10px;
+    }
+
+    .price{
+        color:#ff9800;
+        font-size:20px;
+        font-weight:bold;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>Luxury Car Gallery</h1>
+
+<div class="gallery">
+
+    <div class="card">
+        <img src="1.jpg">
+        <div class="info">
+            <h2>Lamborghini Huracan</h2>
+            <p class="price">$320,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="2.jpg">
+        <div class="info">
+            <h2>BMW M4</h2>
+            <p class="price">$95,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="3.jpg">
+        <div class="info">
+            <h2>Lamborghini Performante</h2>
+            <p class="price">$350,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="4.jpg">
+        <div class="info">
+            <h2>McLaren Orange</h2>
+            <p class="price">$410,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="5.jpg">
+        <div class="info">
+            <h2>Ferrari Red</h2>
+            <p class="price">$500,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="6.jpg">
+        <div class="info">
+            <h2>Lamborghini Blue</h2>
+            <p class="price">$370,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="7.jpg">
+        <div class="info">
+            <h2>Future Concept Car</h2>
+            <p class="price">$1,200,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="8.jpg">
+        <div class="info">
+            <h2>Ferrari 488</h2>
+            <p class="price">$430,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="10.jpg">
+        <div class="info">
+            <h2>Aston Martin</h2>
+            <p class="price">$520,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="11.jpg">
+        <div class="info">
+            <h2>Chevrolet Camaro</h2>
+            <p class="price">$80,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="12.jpg">
+        <div class="info">
+            <h2>Ford Mustang</h2>
+            <p class="price">$75,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="13.jpg">
+        <div class="info">
+            <h2>Lamborghini Aventador</h2>
+            <p class="price">$450,000</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="14.jpg">
+        <div class="info">
+            <h2>Bugatti Chiron</h2>
+            <p class="price">$3,000,000</p>
+        </div>
+    </div>
+
+</div>
+<fotter>
+    <center>Cars for sale</center>   
+</fotter>
+</body>
+</html>
+
